@@ -1,0 +1,75 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    font-family: calibri;
+}
+header{
+    display: flex;
+    padding: 20px;
+    border: 1px solid #e7e7e7;
+    background-color: #fff;
+}
+main{
+    display: flex;
+}
+main #info{
+    width: 200px;
+    height: 500px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #e7e7e7;
+    background-color: #fff;
+    border-radius: 10px;
+}
+#info img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+hr{
+    border: 1px double #f1f1f1;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+ul li:hover{
+    background-color: #0077ff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#hobbies, #perfil_pessoal, #area_computacao{
+    display: none;
+}
+.janela{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin: 20px 5px;
+    padding: 20px;
+    border: 1px solid #e7e7e7;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.images{
+    width: 200px;
+    height: 200px;
+}
+#logo_ifal img{
+    width: 50px;
+    height: 70px;
+    margin: 20px 40px 0 0;
+}

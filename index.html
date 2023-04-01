@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'/>
+        <title>2023 - Introdução a Tecnologias Web</title>
+        <link rel='stylesheet' href='style.css'/>
+        <script src='script.js' defer></script>
+    </head>
+    <body>
+        <header>
+            <div id="logo_ifal"><img src="ifal_logo.png" /></div>
+            <div id="materia"><h1>Atividada 01 - Criar uma Página Web</h1></div>
+        </header>
+        <main>
+            <div id="info">
+                <img src="fotoperfil.jpg" />
+                <hr/>
+                <ul>
+                    <li onclick="aparecerJanelaAreaHome()"><span>Home</span></li>
+                    <li onclick="aparecerJanelaPersonal()"><span>Perfil Pessoal</span></li>
+                    <li onclick="aparecerJanelaHobbies()"><span>Hobbies</span></li>
+                    <li onclick="aparecerJanelaAreaComp()"><span>Área de Computação</span></li>
+                </ul>
+            </div>
+            <div id="temas">
+                <div class="janela" id="home">
+                    <img src="home.png" class="images" />
+                    <hr/>
+                    <p>Olá, aqui é a <strong>Página Inicial</strong>. Esse site foi desenvolvido com o 
+                        objetivo de atender a atividade da matéria de Introdução a Tecnologias Web ministrada
+                        pelo Professor Dr. Eduardo Gomes.
+                    </p>
+                </div>
+                <div class="janela" id="perfil_pessoal">
+                    <img src="personal.png" class="images" />
+                    <hr/>
+                    <p>Bem, falando um pouco sobre mim, o meu nome é Wesley Thyago da Silva Santos, tenho 23 anos
+                        e sou formado em Técnico em Eletrotécnica pelo Instituto Federal de Alagoas (2018). Cursei por 
+                        dois períodos o curso de Psicologia em 2019/2020, mas acabei desistindo e optando pela área de tecnologia.
+                        O que me fez ingressar no curso de Bacharelado em Sistemas de Informação.
+                        </br>
+                        Nesse meio tempo, acabei aprendendo por conta próprio um pouco de HTML, CSS, Javascript, SQL e PHP.
+                    </p>
+                </div>
+                <div class="janela" id="hobbies">
+                    <img src="hobbies.png" class="images" />
+                    <hr/>
+                    <p>Sobre Hobbies, costumo passar uma parte do meu tempo livre assistindo animes e lendo mangá.
+                        Gosto também de ler sobre curiosidades (sobre qualquer assunto), assim como desenhar, escrever.
+                    </p>
+                </div>
+                <div class="janela" id="area_computacao">
+                    <img src="desenvolvedor.png" class="images" />
+                    <hr/>
+                    <p>E pra finalizar, sobre a área da computação que mais me atrai no momento, hoje eu diria que Desenvolvimento
+                        Web seria a resposta. Muito porque está sendo a minha porta de entrada para a área de programação. Porém, 
+                        tenho muito interesse em aprender sobre outros segmentos de desenvolvimento, como desenvolvimento de jogos, aplicativos mobile
+                        e ciência de dados. Ou seja, ainda há um caminho longo a trilhar... 
+                    </p>
+                </div>
+            </div>
+        </main>
+        <!-- <footer>[informações de rodapé]</footer> -->
+    </body>
+</html>
